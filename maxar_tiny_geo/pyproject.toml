@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"maxar_tiny_geo.resources" = ["egm08_25.gtx"] 
+
+[project]
+name = "maxar-tiny-geo"
+version = "0.0.4"
+authors = [
+  {name="Maxar International Sweden AB", email="support@maxar.com"},
+]
+dependencies = [
+  'numpy >= 1.24.0, < 2.0.0',
+  'pyproj >= 3.5.0, < 4.0.0'
+]
+description="Maxar Tiny Geo Library"
+readme="README.md"
+requires-python=">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

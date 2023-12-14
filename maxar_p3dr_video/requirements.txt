@@ -1,0 +1,4 @@
+build >= 0.10.0
+protobuf == 3.18.0
+maxar-canv >= 0.0.3
+Pillow >= 9.4.0

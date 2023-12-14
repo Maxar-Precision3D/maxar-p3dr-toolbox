@@ -1,0 +1,4 @@
+numpy >= 1.24.0
+parsy >= 2.1
+build >= 0.10.0
+maxar-tiny-fit >= 0.0.2

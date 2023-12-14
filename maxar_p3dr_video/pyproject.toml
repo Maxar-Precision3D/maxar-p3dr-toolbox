@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "maxar-p3dr-video"
+version = "0.0.3"
+authors = [
+  {name="Maxar International Sweden AB", email="support@maxar.com"},
+]
+dependencies = [
+  'maxar-canv >= 0.0.3',
+  'protobuf == 3.18.0',
+  'Pillow >= 9.4.0, < 10'
+]
+description="Maxar P3DR Video"
+readme="README.md"
+requires-python=">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

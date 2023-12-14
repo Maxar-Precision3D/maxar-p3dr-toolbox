@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "maxar-tiny-fit"
+version = "0.0.2"
+authors = [
+  {name="Maxar International Sweden AB", email="support@maxar.com"},
+]
+dependencies = [
+  'numpy >= 1.24.0, < 2.0.0'
+]
+description="Maxar Tiny Least Squares Fit"
+readme="README.md"
+requires-python=">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

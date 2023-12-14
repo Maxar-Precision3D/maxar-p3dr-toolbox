@@ -1,0 +1,4 @@
+numpy >= 1.24.0
+pyquaternion >= 0.9.9
+build >= 0.10.0
+maxar-tiny-geo >= 0.0.4

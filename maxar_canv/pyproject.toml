@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "maxar-canv"
+version = "0.0.3"
+authors = [
+  {name="Maxar International Sweden AB", email="support@maxar.com"},
+]
+dependencies = [
+  'Pillow >= 9.4.0, < 10'
+]
+description="Maxar Canonical Video Format"
+readme="README.md"
+requires-python=">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

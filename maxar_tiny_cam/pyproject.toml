@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "maxar-tiny-cam"
+version = "0.0.2"
+authors = [
+  {name="Maxar International Sweden AB", email="support@maxar.com"},
+]
+dependencies = [
+  'numpy >= 1.24.0, < 2.0.0',
+  'pyquaternion >= 0.9.9',
+  'maxar-tiny-geo >= 0.0.4'
+]
+description="Maxar Tiny Cam"
+readme="README.md"
+requires-python=">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
